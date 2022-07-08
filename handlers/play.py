@@ -198,7 +198,7 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🔖 𝖲𝗍𝖺𝗋 𝖬𝗎𝗓𝗂𝗄 𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url=f"https://t.me/SohbetGirdap"),
+                InlineKeyboardButton("https://t.me/sohbetyesilyoll", url=f"https://t.me/sohbetyesilyoll"),
             ],
         ]
     )
@@ -217,7 +217,7 @@ async def play(_, message: Message):
                         ]
                     ]
                 )
-        if (dur / 60) > DURATION_LIMIT:
+        if (dur / 255) > DURATION_LIMIT:
              await lel.edit(f"•> **Daha uzun videolar {DURATION_LIMIT} dakikaların oynatılamasına izin verilmez**!")
              return
         requested_by = message.from_user.first_name
@@ -260,12 +260,12 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🔖 𝖲𝗍𝖺𝗋 𝖬𝗎𝗓𝗂𝗄 𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url=f"https://t.me/SohbetGirdap"),
+                InlineKeyboardButton("https://t.me/sohbetyesilyoll", url=f"https://t.me/sohbetyesilyoll"),
             ],
         ]
     )
         
-        if (dur / 60) > DURATION_LIMIT:
+        if (dur / 255) > DURATION_LIMIT:
              await lel.edit(f"•> **Daha uzun videolar {DURATION_LIMIT} dakikaların oynatılamasına izin verilmez** !")
              return
         requested_by = message.from_user.first_name
